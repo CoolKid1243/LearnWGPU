@@ -105,7 +105,7 @@ impl<'a> State<'a> {
                 strip_index_format: None,
                 front_face: wgpu::FrontFace::Ccw,
                 cull_mode: Some(wgpu::Face::Back),
-                polygon_mode: wgpu::PolygonMode::Fill, // Set to 'Line' for wirefame mode
+                polygon_mode: wgpu::PolygonMode::Fill, // Set to 'Line' for wirefame mode (broken)
                 unclipped_depth: false, // Requires depth control
                 conservative: false, // Requires conservative rasterization
             },

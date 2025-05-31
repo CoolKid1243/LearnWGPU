@@ -1,5 +1,5 @@
 mod create_window;
-mod state;
+mod application;
 
 use create_window::run;
 
